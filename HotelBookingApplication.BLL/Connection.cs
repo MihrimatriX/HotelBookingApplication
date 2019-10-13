@@ -20,5 +20,12 @@ namespace HotelBookingApplication.BLL
             }
             return true;
         }
+        public bool IsThisAlreadyCustomer()
+        {
+            foreach(Customer item db.Customers.ToList())
+            {
+                if (item.TCNo == )
+            }
+        }
     }
 }
