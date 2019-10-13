@@ -8,10 +8,10 @@ using System.Threading.Tasks;
 
 namespace HotelBookingApplication.BLL
 {
-    public class Connection
+    public static class Connection
     {
-        Context db = new Context();
-        public bool IsUserNameAvailable(string username)
+        static Context db = new Context();
+        public static bool IsUserNameAvailable(string username)
         {
             foreach (AppUser item in db.AppUsers.ToList())
             {
@@ -20,7 +20,7 @@ namespace HotelBookingApplication.BLL
             }
             return true;
         }
-        public int TcNoSearch(string tcNo)
+        public static int TcNoSearch(string tcNo)
         {
             foreach (Customer item in db.Customers.ToList())
             {
@@ -31,7 +31,7 @@ namespace HotelBookingApplication.BLL
             }
             return -1;
         }
-        public bool IsAppUser(int customerId)
+        public static bool IsAppUser(int customerId)
         {
             foreach (AppUser item in db.AppUsers.ToList())
             {
@@ -40,7 +40,7 @@ namespace HotelBookingApplication.BLL
             }
             return false;
         }
-        public void AddUser(int customerId, string username, string password)
+        public static void AddUser(int customerId, string username, string password)
         {
             AppUser appUser = new AppUser()
             {
@@ -51,18 +51,19 @@ namespace HotelBookingApplication.BLL
             db.AppUsers.Add(appUser);
             db.SaveChanges();
         }
-        public void AddRoom(int numberOfRoom)
+        public static void AddRoom(int numberOfRoom)
         {
-            if (db.Rooms.ToList().Count != 20)
+            if (db.Rooms.ToList().Count != numberOfRoom)
             {
                 for (int i = db.Rooms.ToList().Count; i < numberOfRoom; i++)
                 {
                     Room room = new Room();
                     db.Rooms.Add(room);
                 }
+                db.SaveChanges();
             }
         }
-        public void AddReservation(DateTime arrivalDate, DateTime departureDate, int optionId, int customerId, int numberOfCustomers)
+        public static void AddReservation(DateTime arrivalDate, DateTime departureDate, int optionId, int customerId, int numberOfCustomers)
         {
             Reservation reservation = new Reservation()
             {
@@ -76,8 +77,9 @@ namespace HotelBookingApplication.BLL
             db.Reservations.Add(reservation);
         }
 
-        private decimal CalculatePrice(int numberOfCustomer,int optionId)
+        private static decimal CalculatePrice(int numberOfCustomer,int optionId)
         {
+            return 0;
         }
 
     }

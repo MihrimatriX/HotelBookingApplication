@@ -1,4 +1,5 @@
-﻿using System;
+﻿using HotelBookingApplication.BLL;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -22,6 +23,11 @@ namespace HotelBookingApplication.UI
             NewUserInterface newUserInterface = new NewUserInterface(this);
             Hide();
             newUserInterface.Show();
+        }
+
+        private void LoginInterface_Load(object sender, EventArgs e)
+        {
+            Connection.AddRoom(50);
         }
     }
 }

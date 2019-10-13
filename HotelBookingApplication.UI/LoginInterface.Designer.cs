@@ -87,7 +87,7 @@
             this.btnKaydol.UseVisualStyleBackColor = true;
             this.btnKaydol.Click += new System.EventHandler(this.BtnKaydol_Click);
             // 
-            // Form1
+            // LoginInterface
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -98,8 +98,9 @@
             this.Controls.Add(this.txtUserName);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
-            this.Name = "Form1";
+            this.Name = "LoginInterface";
             this.Text = "Form1";
+            this.Load += new System.EventHandler(this.LoginInterface_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
