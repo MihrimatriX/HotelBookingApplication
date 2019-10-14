@@ -12,6 +12,7 @@ namespace HotelBookinApplication.DAL
     {
         public RezervationCustomerMapping()
         {
+            HasKey(x => x.ReservationCustomerID);
             HasRequired(x => x.Reservation).WithMany(x => x.ReservationCustomers).HasForeignKey(x => x.ReservationID);
             HasRequired(x => x.Customer).WithMany(x => x.ReservationCustomers).HasForeignKey(x => x.CustomerID);
         }

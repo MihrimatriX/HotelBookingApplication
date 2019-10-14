@@ -20,6 +20,38 @@ namespace HotelBookingApplication.BLL
             }
             return true;
         }
+
+        public static void AddOptions()
+        {
+            if (db.Options.Count() != 3)
+            {
+                Option option = new Option()
+                {
+                    OptionName = "Standart",
+                    Description = "Sadece oda ve kahvaltı dahildir."
+                };
+                db.Options.Add(option);
+                db.SaveChanges();
+                option.OptionName = "Full";
+                option.Description = "Oda ve tüm öğünler dahildir.";
+                db.Options.Add(option);
+                db.SaveChanges();
+                option.OptionName = "Full + Full";
+                option.Description = "Oda, yemek ve içki dahildir.";
+                db.Options.Add(option);
+                db.SaveChanges();
+
+            } 
+        }
+        //public static List<Room> TarihindekiRezerveOdalar()
+        //{
+        //    foreach (Reservation item in db.Reservations)
+        //    {
+
+
+        //    }
+        //}
+
         //public static int TcNoSearch(string tcNo)
         //{
         //    foreach (Customer item in db.Customers.ToList())
@@ -31,7 +63,6 @@ namespace HotelBookingApplication.BLL
         //    }
         //    return -1;
         //}
-
         public static void AddCustomer(string firstName, string lastName, string tcNo)
         {
             Customer customer = new Customer()

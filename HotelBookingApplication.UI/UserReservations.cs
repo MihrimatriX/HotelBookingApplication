@@ -1,4 +1,5 @@
-﻿using System;
+﻿using HotelBookinApplication.DAL;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -13,9 +14,11 @@ namespace HotelBookingApplication.UI
     public partial class UserReservations : Form
     {
         LoginInterface loginInterface;
-        Reservation reservation;
-        public UserReservations(LoginInterface login)
+        ReservationInterface reservation;
+        Context db;
+        public UserReservations(LoginInterface login,Context context)
         {
+            db = context;
             loginInterface = login;
             InitializeComponent();
         }
@@ -36,7 +39,7 @@ namespace HotelBookingApplication.UI
 
         private void BtnYeniRezerve_Click(object sender, EventArgs e)
         {
-            reservation = new Reservation();
+            reservation = new ReservationInterface(this , db);
             reservation.Show();
             this.Close();
             loginInterface.Hide();                

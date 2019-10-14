@@ -69,5 +69,5 @@ C:\Users\FURKAN\Desktop\Otel Rezarvasyon\HotelBookingApplication\HotelBookingApp
 C:\Users\FURKAN\Desktop\Otel Rezarvasyon\HotelBookingApplication\HotelBookingApplication.UI\obj\Debug\HotelBookingApplication.UI.csproj.CopyComplete
 C:\Users\FURKAN\Desktop\Otel Rezarvasyon\HotelBookingApplication\HotelBookingApplication.UI\obj\Debug\HotelBookingApplication.UI.exe
 C:\Users\FURKAN\Desktop\Otel Rezarvasyon\HotelBookingApplication\HotelBookingApplication.UI\obj\Debug\HotelBookingApplication.UI.pdb
-C:\Users\bingo\Documents\GitHub\HotelBookingApplication\HotelBookingApplication.UI\obj\Debug\HotelBookingApplication.UI.Reservation.resources
 C:\Users\bingo\Documents\GitHub\HotelBookingApplication\HotelBookingApplication.UI\obj\Debug\HotelBookingApplication.UI.UserReservations.resources
+C:\Users\bingo\Documents\GitHub\HotelBookingApplication\HotelBookingApplication.UI\obj\Debug\HotelBookingApplication.UI.ReservationInterface.resources

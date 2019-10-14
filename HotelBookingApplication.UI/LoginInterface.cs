@@ -15,7 +15,7 @@ namespace HotelBookingApplication.UI
     public partial class LoginInterface : Form
     {
         Context db;
-        Reservation reservation;
+        ReservationInterface reservation;
         NewUserInterface newUserInterface;
 
         public LoginInterface()
@@ -25,7 +25,7 @@ namespace HotelBookingApplication.UI
 
         private void BtnKaydol_Click(object sender, EventArgs e)
         {
-            newUserInterface = new NewUserInterface(this);
+            newUserInterface = new NewUserInterface(this,db);
             Hide();
             newUserInterface.Show();
         }
@@ -33,6 +33,7 @@ namespace HotelBookingApplication.UI
         private void LoginInterface_Load(object sender, EventArgs e)
         {
             Connection.AddRoom(20);
+            Connection.AddOptions();
             db = new Context();
             txtPassword.PasswordChar = '*';
         }
@@ -42,7 +43,7 @@ namespace HotelBookingApplication.UI
             if (db.AppUsers.FirstOrDefault(x => x.UserName == txtUserName.Text && x.Password == txtPassword.Text) != null)
             {
                 txtPassword.Text = txtUserName.Text = "";
-                UserReservations userReservations= new UserReservations(this);
+                UserReservations userReservations= new UserReservations(this , db);
                 userReservations.Show();
                 Hide();
             }

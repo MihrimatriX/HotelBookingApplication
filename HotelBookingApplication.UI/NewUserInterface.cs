@@ -17,10 +17,10 @@ namespace HotelBookingApplication.UI
     {
         LoginInterface loginInterface;
         Context db;
-        public NewUserInterface(LoginInterface login)
+        public NewUserInterface(LoginInterface login,Context context)
         {
             loginInterface = login;
-            db = new Context();
+            db = context;
             InitializeComponent();
         }
 
