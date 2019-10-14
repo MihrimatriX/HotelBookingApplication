@@ -1,0 +1,17 @@
+C:\Users\bingo\Documents\GitHub\HotelBookingApplication\HotelBookingApplication.BLL\bin\Debug\HotelBookingApplication.BLL.dll.config
+C:\Users\bingo\Documents\GitHub\HotelBookingApplication\HotelBookingApplication.BLL\bin\Debug\HotelBookingApplication.BLL.dll
+C:\Users\bingo\Documents\GitHub\HotelBookingApplication\HotelBookingApplication.BLL\bin\Debug\HotelBookingApplication.BLL.pdb
+C:\Users\bingo\Documents\GitHub\HotelBookingApplication\HotelBookingApplication.BLL\bin\Debug\EntityFramework.dll
+C:\Users\bingo\Documents\GitHub\HotelBookingApplication\HotelBookingApplication.BLL\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\bingo\Documents\GitHub\HotelBookingApplication\HotelBookingApplication.BLL\bin\Debug\HotelBookinApplication.DAL.dll
+C:\Users\bingo\Documents\GitHub\HotelBookingApplication\HotelBookingApplication.BLL\bin\Debug\HotelBookingApplication.DATA.dll
+C:\Users\bingo\Documents\GitHub\HotelBookingApplication\HotelBookingApplication.BLL\bin\Debug\HotelBookinApplication.DAL.pdb
+C:\Users\bingo\Documents\GitHub\HotelBookingApplication\HotelBookingApplication.BLL\bin\Debug\HotelBookinApplication.DAL.dll.config
+C:\Users\bingo\Documents\GitHub\HotelBookingApplication\HotelBookingApplication.BLL\bin\Debug\HotelBookingApplication.DATA.pdb
+C:\Users\bingo\Documents\GitHub\HotelBookingApplication\HotelBookingApplication.BLL\bin\Debug\EntityFramework.xml
+C:\Users\bingo\Documents\GitHub\HotelBookingApplication\HotelBookingApplication.BLL\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\bingo\Documents\GitHub\HotelBookingApplication\HotelBookingApplication.BLL\obj\Debug\HotelBookingApplication.BLL.csprojAssemblyReference.cache
+C:\Users\bingo\Documents\GitHub\HotelBookingApplication\HotelBookingApplication.BLL\obj\Debug\HotelBookingApplication.BLL.csproj.CoreCompileInputs.cache
+C:\Users\bingo\Documents\GitHub\HotelBookingApplication\HotelBookingApplication.BLL\obj\Debug\HotelBookingApplication.BLL.csproj.CopyComplete
+C:\Users\bingo\Documents\GitHub\HotelBookingApplication\HotelBookingApplication.BLL\obj\Debug\HotelBookingApplication.BLL.dll
+C:\Users\bingo\Documents\GitHub\HotelBookingApplication\HotelBookingApplication.BLL\obj\Debug\HotelBookingApplication.BLL.pdb
