@@ -32,7 +32,7 @@ namespace HotelBookingApplication.UI
 
         private void LoginInterface_Load(object sender, EventArgs e)
         {
-            Connection.AddRoom(50);
+            Connection.AddRoom(20);
             db = new Context();
             txtPassword.PasswordChar = '*';
         }
@@ -42,8 +42,8 @@ namespace HotelBookingApplication.UI
             if (db.AppUsers.FirstOrDefault(x => x.UserName == txtUserName.Text && x.Password == txtPassword.Text) != null)
             {
                 txtPassword.Text = txtUserName.Text = "";
-                reservation = new Reservation();
-                reservation.Show();
+                UserReservations userReservations= new UserReservations(this);
+                userReservations.Show();
                 Hide();
             }
             else

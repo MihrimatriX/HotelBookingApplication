@@ -76,6 +76,12 @@
     <Compile Include="Reservation.Designer.cs">
       <DependentUpon>Reservation.cs</DependentUpon>
     </Compile>
+    <Compile Include="UserReservations.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UserReservations.Designer.cs">
+      <DependentUpon>UserReservations.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="LoginInterface.resx">
       <DependentUpon>LoginInterface.cs</DependentUpon>
     </EmbeddedResource>
@@ -91,6 +97,12 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="Reservation.resx">
+      <DependentUpon>Reservation.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserReservations.resx">
+      <DependentUpon>UserReservations.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>

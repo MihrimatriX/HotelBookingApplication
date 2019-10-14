@@ -24,12 +24,11 @@ namespace HotelBookingApplication.UI
             InitializeComponent();
         }
 
-       
+
 
         private void BtnCancel_Click(object sender, EventArgs e)
         {
-            loginInterface.Show();
-            this.Hide();
+            this.Close();
 
         }
 
@@ -45,24 +44,49 @@ namespace HotelBookingApplication.UI
                 MessageBox.Show("Lütfen tüm boş alanları doldurunuz!");
                 return;
             }
-            Customer customer = new Customer()
+            else if (txtTcNo.Text.Length != 11)
+                MessageBox.Show("TC kimlik numarasını 11 haneli olarak giriniz.");
+            else
             {
-                FirstName = txtFirstName.Text,
-                LastName = txtLastName.Text,
-                TCNo = txtTcNo.Text,
-            };
-            AppUser user = new AppUser()
+                if (Connection.IsUserNameAvailable(txtUserName.Text))
+                {
+                    if (Connection.CustomerSearch(txtTcNo.Text) == -1)
+                    {
+                        Connection.AddCustomer(txtFirstName.Text, txtLastName.Text, txtTcNo.Text);
+                        Connection.AddAppUser(Connection.CustomerSearch(txtTcNo.Text)/*CustomerID*/, txtUserName.Text, txtPassword.Text);
+                        MessageBox.Show("Kullanıcı eklendi.");
+                        this.Close();
+                    }
+                    else
+                    {
+                        if (Connection.IsAppUser(Connection.CustomerSearch(txtTcNo.Text)))
+                            MessageBox.Show("Bu TC No'ya ait kullanıcı bulunmaktadır.");
+                        else
+                        {
+                            Connection.AddAppUser(Connection.CustomerSearch(txtTcNo.Text), txtUserName.Text, txtPassword.Text);
+                            MessageBox.Show("Kullanıcı eklendi.");
+                            this.Close();
+                        }
+
+                    }
+                }
+                else
+                    MessageBox.Show("Bu kulanıcı adı daha önce alınmıştır. Lütfen farklı bir kullanıcı adı giriniz.");
+            }
+        }
+
+        private void TxtTcNo_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            char ch = e.KeyChar;
+            if(!Char.IsDigit(ch) && ch != 8 && ch != 46)
             {
-                UserName = txtUserName.Text,
-                Password = txtPassword.Text,
-            };
-            db.AppUsers.Add(user);
-            db.Customers.Add(customer);
-            db.SaveChanges();
-            MessageBox.Show("Üye kaydı alınmıştır...");
-            Metotlar.Temizle(grpRegister);
+                e.Handled = true;
+            }
+        }
+
+        private void NewUserInterface_FormClosed(object sender, FormClosedEventArgs e)
+        {
             loginInterface.Show();
-            this.Hide();
         }
     }
 }

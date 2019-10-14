@@ -51,10 +51,9 @@
             // 
             this.pictureBox1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox1.BackgroundImage")));
             this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox1.Location = new System.Drawing.Point(3, 0);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox1.Location = new System.Drawing.Point(2, 0);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(1064, 341);
+            this.pictureBox1.Size = new System.Drawing.Size(798, 277);
             this.pictureBox1.TabIndex = 12;
             this.pictureBox1.TabStop = false;
             // 
@@ -73,9 +72,11 @@
             this.grpRegister.Controls.Add(this.label3);
             this.grpRegister.Controls.Add(this.label2);
             this.grpRegister.Controls.Add(this.label1);
-            this.grpRegister.Location = new System.Drawing.Point(153, 348);
+            this.grpRegister.Location = new System.Drawing.Point(115, 283);
+            this.grpRegister.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.grpRegister.Name = "grpRegister";
-            this.grpRegister.Size = new System.Drawing.Size(768, 208);
+            this.grpRegister.Padding = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.grpRegister.Size = new System.Drawing.Size(576, 169);
             this.grpRegister.TabIndex = 13;
             this.grpRegister.TabStop = false;
             // 
@@ -83,10 +84,9 @@
             // 
             this.btnCancel.BackColor = System.Drawing.Color.DarkGoldenrod;
             this.btnCancel.Font = new System.Drawing.Font("MV Boli", 9F, System.Drawing.FontStyle.Bold);
-            this.btnCancel.Location = new System.Drawing.Point(520, 156);
-            this.btnCancel.Margin = new System.Windows.Forms.Padding(4);
+            this.btnCancel.Location = new System.Drawing.Point(390, 127);
             this.btnCancel.Name = "btnCancel";
-            this.btnCancel.Size = new System.Drawing.Size(113, 37);
+            this.btnCancel.Size = new System.Drawing.Size(85, 30);
             this.btnCancel.TabIndex = 23;
             this.btnCancel.Text = "İPTAL";
             this.btnCancel.UseVisualStyleBackColor = false;
@@ -96,10 +96,9 @@
             // 
             this.btnSave.BackColor = System.Drawing.Color.DarkGoldenrod;
             this.btnSave.Font = new System.Drawing.Font("MV Boli", 9F, System.Drawing.FontStyle.Bold);
-            this.btnSave.Location = new System.Drawing.Point(223, 156);
-            this.btnSave.Margin = new System.Windows.Forms.Padding(4);
+            this.btnSave.Location = new System.Drawing.Point(167, 127);
             this.btnSave.Name = "btnSave";
-            this.btnSave.Size = new System.Drawing.Size(113, 37);
+            this.btnSave.Size = new System.Drawing.Size(85, 30);
             this.btnSave.TabIndex = 22;
             this.btnSave.Text = "KAYDET";
             this.btnSave.UseVisualStyleBackColor = false;
@@ -108,10 +107,9 @@
             // txtPassword
             // 
             this.txtPassword.BackColor = System.Drawing.Color.Tan;
-            this.txtPassword.Location = new System.Drawing.Point(520, 106);
-            this.txtPassword.Margin = new System.Windows.Forms.Padding(4);
+            this.txtPassword.Location = new System.Drawing.Point(390, 86);
             this.txtPassword.Name = "txtPassword";
-            this.txtPassword.Size = new System.Drawing.Size(221, 22);
+            this.txtPassword.Size = new System.Drawing.Size(167, 20);
             this.txtPassword.TabIndex = 21;
             // 
             // label5
@@ -119,10 +117,9 @@
             this.label5.AutoSize = true;
             this.label5.BackColor = System.Drawing.Color.Transparent;
             this.label5.Font = new System.Drawing.Font("MV Boli", 10F, System.Drawing.FontStyle.Bold);
-            this.label5.Location = new System.Drawing.Point(420, 109);
-            this.label5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label5.Location = new System.Drawing.Point(315, 89);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(70, 22);
+            this.label5.Size = new System.Drawing.Size(60, 18);
             this.label5.TabIndex = 20;
             this.label5.Text = "Parola:";
             // 
@@ -130,37 +127,34 @@
             // 
             this.txtUserName.AllowDrop = true;
             this.txtUserName.BackColor = System.Drawing.Color.Tan;
-            this.txtUserName.Location = new System.Drawing.Point(520, 65);
-            this.txtUserName.Margin = new System.Windows.Forms.Padding(4);
+            this.txtUserName.Location = new System.Drawing.Point(390, 53);
             this.txtUserName.Name = "txtUserName";
-            this.txtUserName.Size = new System.Drawing.Size(221, 22);
+            this.txtUserName.Size = new System.Drawing.Size(167, 20);
             this.txtUserName.TabIndex = 19;
             // 
             // txtTcNo
             // 
             this.txtTcNo.BackColor = System.Drawing.Color.Tan;
-            this.txtTcNo.Location = new System.Drawing.Point(113, 102);
-            this.txtTcNo.Margin = new System.Windows.Forms.Padding(4);
+            this.txtTcNo.Location = new System.Drawing.Point(85, 83);
             this.txtTcNo.Name = "txtTcNo";
-            this.txtTcNo.Size = new System.Drawing.Size(221, 22);
+            this.txtTcNo.Size = new System.Drawing.Size(167, 20);
             this.txtTcNo.TabIndex = 18;
+            this.txtTcNo.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.TxtTcNo_KeyPress);
             // 
             // txtLastName
             // 
             this.txtLastName.BackColor = System.Drawing.Color.Tan;
-            this.txtLastName.Location = new System.Drawing.Point(113, 59);
-            this.txtLastName.Margin = new System.Windows.Forms.Padding(4);
+            this.txtLastName.Location = new System.Drawing.Point(85, 48);
             this.txtLastName.Name = "txtLastName";
-            this.txtLastName.Size = new System.Drawing.Size(221, 22);
+            this.txtLastName.Size = new System.Drawing.Size(167, 20);
             this.txtLastName.TabIndex = 17;
             // 
             // txtFirstName
             // 
             this.txtFirstName.BackColor = System.Drawing.Color.Tan;
-            this.txtFirstName.Location = new System.Drawing.Point(113, 16);
-            this.txtFirstName.Margin = new System.Windows.Forms.Padding(4);
+            this.txtFirstName.Location = new System.Drawing.Point(85, 13);
             this.txtFirstName.Name = "txtFirstName";
-            this.txtFirstName.Size = new System.Drawing.Size(221, 22);
+            this.txtFirstName.Size = new System.Drawing.Size(167, 20);
             this.txtFirstName.TabIndex = 16;
             // 
             // label4
@@ -168,10 +162,9 @@
             this.label4.AutoSize = true;
             this.label4.BackColor = System.Drawing.Color.Transparent;
             this.label4.Font = new System.Drawing.Font("MV Boli", 10F, System.Drawing.FontStyle.Bold);
-            this.label4.Location = new System.Drawing.Point(364, 65);
-            this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label4.Location = new System.Drawing.Point(273, 53);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(124, 22);
+            this.label4.Size = new System.Drawing.Size(111, 18);
             this.label4.TabIndex = 15;
             this.label4.Text = "Kullanıcı Adı:";
             // 
@@ -180,10 +173,9 @@
             this.label3.AutoSize = true;
             this.label3.BackColor = System.Drawing.Color.Transparent;
             this.label3.Font = new System.Drawing.Font("MV Boli", 10F, System.Drawing.FontStyle.Bold);
-            this.label3.Location = new System.Drawing.Point(28, 106);
-            this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label3.Location = new System.Drawing.Point(21, 86);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(73, 22);
+            this.label3.Size = new System.Drawing.Size(61, 18);
             this.label3.TabIndex = 14;
             this.label3.Text = "TC No:";
             // 
@@ -192,10 +184,9 @@
             this.label2.AutoSize = true;
             this.label2.BackColor = System.Drawing.Color.Transparent;
             this.label2.Font = new System.Drawing.Font("MV Boli", 10F, System.Drawing.FontStyle.Bold);
-            this.label2.Location = new System.Drawing.Point(29, 65);
-            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label2.Location = new System.Drawing.Point(22, 53);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(67, 22);
+            this.label2.Size = new System.Drawing.Size(57, 18);
             this.label2.TabIndex = 13;
             this.label2.Text = "Soyad:";
             // 
@@ -204,26 +195,25 @@
             this.label1.AutoSize = true;
             this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("MV Boli", 10F, System.Drawing.FontStyle.Bold);
-            this.label1.Location = new System.Drawing.Point(52, 20);
-            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label1.Location = new System.Drawing.Point(39, 16);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(40, 22);
+            this.label1.Size = new System.Drawing.Size(34, 18);
             this.label1.TabIndex = 12;
             this.label1.Text = "Ad:";
             // 
             // NewUserInterface
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(1067, 554);
+            this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.grpRegister);
             this.Controls.Add(this.pictureBox1);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "NewUserInterface";
             this.Text = "NewUserInterface";
+            this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.NewUserInterface_FormClosed);
             this.Load += new System.EventHandler(this.NewUserInterface_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.grpRegister.ResumeLayout(false);

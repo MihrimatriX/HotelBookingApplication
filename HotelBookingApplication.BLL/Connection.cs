@@ -20,27 +20,52 @@ namespace HotelBookingApplication.BLL
             }
             return true;
         }
-        public static int TcNoSearch(string tcNo)
+        //public static int TcNoSearch(string tcNo)
+        //{
+        //    foreach (Customer item in db.Customers.ToList())
+        //    {
+        //        if (item.TCNo == tcNo)
+        //        {
+        //            return item.CustomerID;
+        //        }
+        //    }
+        //    return -1;
+        //}
+
+        public static void AddCustomer(string firstName, string lastName, string tcNo)
+        {
+            Customer customer = new Customer()
+            {
+                FirstName = firstName,
+                LastName = lastName,
+                TCNo = tcNo
+            };
+            db.Customers.Add(customer);
+            db.SaveChanges();
+        }
+
+
+        public static int CustomerSearch(string tcNo)
         {
             foreach (Customer item in db.Customers.ToList())
             {
                 if (item.TCNo == tcNo)
-                {
                     return item.CustomerID;
-                }
             }
             return -1;
         }
-        public static bool IsAppUser(int customerId)
+
+        public static bool IsAppUser(int customerID)
         {
-            foreach (AppUser item in db.AppUsers.ToList())
+            foreach (AppUser item in db.AppUsers)
             {
-                if (item.CustomerID == customerId)
+                if (item.CustomerID == customerID)
                     return true;
             }
             return false;
         }
-        public static void AddUser(int customerId, string username, string password)
+
+        public static void AddAppUser(int customerId, string username, string password)
         {
             AppUser appUser = new AppUser()
             {
@@ -51,6 +76,7 @@ namespace HotelBookingApplication.BLL
             db.AppUsers.Add(appUser);
             db.SaveChanges();
         }
+
         public static void AddRoom(int numberOfRoom)
         {
             if (db.Rooms.ToList().Count != numberOfRoom)
@@ -71,13 +97,13 @@ namespace HotelBookingApplication.BLL
                 DepartureDate = departureDate,
                 OptionID = optionId,
                 CustomerID = customerId,
-                Price = CalculatePrice(numberOfCustomers,optionId)
+                Price = CalculatePrice(numberOfCustomers, optionId)
 
             };
             db.Reservations.Add(reservation);
         }
 
-        private static decimal CalculatePrice(int numberOfCustomer,int optionId)
+        private static decimal CalculatePrice(int numberOfCustomer, int optionId)
         {
             return 0;
         }

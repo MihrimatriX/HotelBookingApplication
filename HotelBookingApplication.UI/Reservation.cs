@@ -16,5 +16,10 @@ namespace HotelBookingApplication.UI
         {
             InitializeComponent();
         }
+
+        private void NmrKisiSayisi_ValueChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
