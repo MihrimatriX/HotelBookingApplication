@@ -45,3 +45,27 @@ C:\Users\zeynep\Documents\GitHub\HotelBookingApplication\HotelBookingApplication
 C:\Users\zeynep\Documents\GitHub\HotelBookingApplication\HotelBookingApplication.UI\obj\Debug\HotelBookingApplication.UI.csproj.CopyComplete
 C:\Users\zeynep\Documents\GitHub\HotelBookingApplication\HotelBookingApplication.UI\obj\Debug\HotelBookingApplication.UI.exe
 C:\Users\zeynep\Documents\GitHub\HotelBookingApplication\HotelBookingApplication.UI\obj\Debug\HotelBookingApplication.UI.pdb
+C:\Users\FURKAN\Desktop\Otel Rezarvasyon\HotelBookingApplication\HotelBookingApplication.UI\bin\Debug\HotelBookingApplication.UI.exe.config
+C:\Users\FURKAN\Desktop\Otel Rezarvasyon\HotelBookingApplication\HotelBookingApplication.UI\bin\Debug\HotelBookingApplication.UI.exe
+C:\Users\FURKAN\Desktop\Otel Rezarvasyon\HotelBookingApplication\HotelBookingApplication.UI\bin\Debug\HotelBookingApplication.UI.pdb
+C:\Users\FURKAN\Desktop\Otel Rezarvasyon\HotelBookingApplication\HotelBookingApplication.UI\bin\Debug\EntityFramework.dll
+C:\Users\FURKAN\Desktop\Otel Rezarvasyon\HotelBookingApplication\HotelBookingApplication.UI\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\FURKAN\Desktop\Otel Rezarvasyon\HotelBookingApplication\HotelBookingApplication.UI\bin\Debug\HotelBookinApplication.DAL.dll
+C:\Users\FURKAN\Desktop\Otel Rezarvasyon\HotelBookingApplication\HotelBookingApplication.UI\bin\Debug\HotelBookingApplication.BLL.dll
+C:\Users\FURKAN\Desktop\Otel Rezarvasyon\HotelBookingApplication\HotelBookingApplication.UI\bin\Debug\HotelBookingApplication.DATA.dll
+C:\Users\FURKAN\Desktop\Otel Rezarvasyon\HotelBookingApplication\HotelBookingApplication.UI\bin\Debug\HotelBookinApplication.DAL.pdb
+C:\Users\FURKAN\Desktop\Otel Rezarvasyon\HotelBookingApplication\HotelBookingApplication.UI\bin\Debug\HotelBookinApplication.DAL.dll.config
+C:\Users\FURKAN\Desktop\Otel Rezarvasyon\HotelBookingApplication\HotelBookingApplication.UI\bin\Debug\HotelBookingApplication.BLL.pdb
+C:\Users\FURKAN\Desktop\Otel Rezarvasyon\HotelBookingApplication\HotelBookingApplication.UI\bin\Debug\HotelBookingApplication.BLL.dll.config
+C:\Users\FURKAN\Desktop\Otel Rezarvasyon\HotelBookingApplication\HotelBookingApplication.UI\bin\Debug\HotelBookingApplication.DATA.pdb
+C:\Users\FURKAN\Desktop\Otel Rezarvasyon\HotelBookingApplication\HotelBookingApplication.UI\bin\Debug\EntityFramework.xml
+C:\Users\FURKAN\Desktop\Otel Rezarvasyon\HotelBookingApplication\HotelBookingApplication.UI\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\FURKAN\Desktop\Otel Rezarvasyon\HotelBookingApplication\HotelBookingApplication.UI\obj\Debug\HotelBookingApplication.UI.csprojAssemblyReference.cache
+C:\Users\FURKAN\Desktop\Otel Rezarvasyon\HotelBookingApplication\HotelBookingApplication.UI\obj\Debug\HotelBookingApplication.UI.LoginInterface.resources
+C:\Users\FURKAN\Desktop\Otel Rezarvasyon\HotelBookingApplication\HotelBookingApplication.UI\obj\Debug\HotelBookingApplication.UI.NewUserInterface.resources
+C:\Users\FURKAN\Desktop\Otel Rezarvasyon\HotelBookingApplication\HotelBookingApplication.UI\obj\Debug\HotelBookingApplication.UI.Properties.Resources.resources
+C:\Users\FURKAN\Desktop\Otel Rezarvasyon\HotelBookingApplication\HotelBookingApplication.UI\obj\Debug\HotelBookingApplication.UI.csproj.GenerateResource.cache
+C:\Users\FURKAN\Desktop\Otel Rezarvasyon\HotelBookingApplication\HotelBookingApplication.UI\obj\Debug\HotelBookingApplication.UI.csproj.CoreCompileInputs.cache
+C:\Users\FURKAN\Desktop\Otel Rezarvasyon\HotelBookingApplication\HotelBookingApplication.UI\obj\Debug\HotelBookingApplication.UI.csproj.CopyComplete
+C:\Users\FURKAN\Desktop\Otel Rezarvasyon\HotelBookingApplication\HotelBookingApplication.UI\obj\Debug\HotelBookingApplication.UI.exe
+C:\Users\FURKAN\Desktop\Otel Rezarvasyon\HotelBookingApplication\HotelBookingApplication.UI\obj\Debug\HotelBookingApplication.UI.pdb
