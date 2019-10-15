@@ -29,8 +29,6 @@
         private void InitializeComponent()
         {
             this.grpListeleme = new System.Windows.Forms.GroupBox();
-            this.nmrOda = new System.Windows.Forms.NumericUpDown();
-            this.label4 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.cmbCesitler = new System.Windows.Forms.ComboBox();
             this.btnOdalariListele = new System.Windows.Forms.Button();
@@ -44,14 +42,11 @@
             this.btnRezervasyonuTamamla = new System.Windows.Forms.Button();
             this.lblMoney = new System.Windows.Forms.Label();
             this.grpListeleme.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.nmrOda)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.nmrKisiSayisi)).BeginInit();
             this.SuspendLayout();
             // 
             // grpListeleme
             // 
-            this.grpListeleme.Controls.Add(this.nmrOda);
-            this.grpListeleme.Controls.Add(this.label4);
             this.grpListeleme.Controls.Add(this.label3);
             this.grpListeleme.Controls.Add(this.cmbCesitler);
             this.grpListeleme.Controls.Add(this.btnOdalariListele);
@@ -66,32 +61,6 @@
             this.grpListeleme.Size = new System.Drawing.Size(665, 205);
             this.grpListeleme.TabIndex = 0;
             this.grpListeleme.TabStop = false;
-            // 
-            // nmrOda
-            // 
-            this.nmrOda.Location = new System.Drawing.Point(24, 167);
-            this.nmrOda.Minimum = new decimal(new int[] {
-            1,
-            0,
-            0,
-            0});
-            this.nmrOda.Name = "nmrOda";
-            this.nmrOda.Size = new System.Drawing.Size(200, 20);
-            this.nmrOda.TabIndex = 19;
-            this.nmrOda.Value = new decimal(new int[] {
-            1,
-            0,
-            0,
-            0});
-            // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(24, 142);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(60, 13);
-            this.label4.TabIndex = 18;
-            this.label4.Text = "Oda Sayısı:";
             // 
             // label3
             // 
@@ -227,10 +196,10 @@
             this.Controls.Add(this.grpListeleme);
             this.Name = "ReservationInterface";
             this.Text = "Reservation";
+            this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.ReservationInterface_FormClosed);
             this.Load += new System.EventHandler(this.Reservation_Load);
             this.grpListeleme.ResumeLayout(false);
             this.grpListeleme.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.nmrOda)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.nmrKisiSayisi)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -251,8 +220,6 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.ComboBox cmbCesitler;
         private System.Windows.Forms.Button btnRezervasyonuTamamla;
-        private System.Windows.Forms.NumericUpDown nmrOda;
-        private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label lblMoney;
     }
 }

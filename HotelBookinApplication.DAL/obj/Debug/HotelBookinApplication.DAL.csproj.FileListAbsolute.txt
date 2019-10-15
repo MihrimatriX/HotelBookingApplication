@@ -40,3 +40,16 @@ C:\Users\FURKAN\Desktop\Otel Rezarvasyon\HotelBookingApplication\HotelBookinAppl
 C:\Users\FURKAN\Desktop\Otel Rezarvasyon\HotelBookingApplication\HotelBookinApplication.DAL\obj\Debug\HotelBookinApplication.DAL.csproj.CopyComplete
 C:\Users\FURKAN\Desktop\Otel Rezarvasyon\HotelBookingApplication\HotelBookinApplication.DAL\obj\Debug\HotelBookinApplication.DAL.dll
 C:\Users\FURKAN\Desktop\Otel Rezarvasyon\HotelBookingApplication\HotelBookinApplication.DAL\obj\Debug\HotelBookinApplication.DAL.pdb
+C:\Users\zeynep\Documents\GitHub\HotelBookingApplication\HotelBookinApplication.DAL\bin\Debug\HotelBookinApplication.DAL.dll.config
+C:\Users\zeynep\Documents\GitHub\HotelBookingApplication\HotelBookinApplication.DAL\bin\Debug\HotelBookinApplication.DAL.dll
+C:\Users\zeynep\Documents\GitHub\HotelBookingApplication\HotelBookinApplication.DAL\bin\Debug\HotelBookinApplication.DAL.pdb
+C:\Users\zeynep\Documents\GitHub\HotelBookingApplication\HotelBookinApplication.DAL\bin\Debug\EntityFramework.dll
+C:\Users\zeynep\Documents\GitHub\HotelBookingApplication\HotelBookinApplication.DAL\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\zeynep\Documents\GitHub\HotelBookingApplication\HotelBookinApplication.DAL\bin\Debug\HotelBookingApplication.DATA.dll
+C:\Users\zeynep\Documents\GitHub\HotelBookingApplication\HotelBookinApplication.DAL\bin\Debug\HotelBookingApplication.DATA.pdb
+C:\Users\zeynep\Documents\GitHub\HotelBookingApplication\HotelBookinApplication.DAL\bin\Debug\EntityFramework.xml
+C:\Users\zeynep\Documents\GitHub\HotelBookingApplication\HotelBookinApplication.DAL\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\zeynep\Documents\GitHub\HotelBookingApplication\HotelBookinApplication.DAL\obj\Debug\HotelBookinApplication.DAL.csprojAssemblyReference.cache
+C:\Users\zeynep\Documents\GitHub\HotelBookingApplication\HotelBookinApplication.DAL\obj\Debug\HotelBookinApplication.DAL.csproj.CopyComplete
+C:\Users\zeynep\Documents\GitHub\HotelBookingApplication\HotelBookinApplication.DAL\obj\Debug\HotelBookinApplication.DAL.dll
+C:\Users\zeynep\Documents\GitHub\HotelBookingApplication\HotelBookinApplication.DAL\obj\Debug\HotelBookinApplication.DAL.pdb

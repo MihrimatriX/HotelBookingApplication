@@ -56,6 +56,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AddCustomerUI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddCustomerUI.Designer.cs">
+      <DependentUpon>AddCustomerUI.cs</DependentUpon>
+    </Compile>
     <Compile Include="LoginInterface.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -76,12 +82,15 @@
     <Compile Include="ReservationInterface.Designer.cs">
       <DependentUpon>ReservationInterface.cs</DependentUpon>
     </Compile>
-    <Compile Include="UserReservations.cs">
+    <Compile Include="UsersReservations.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="UserReservations.Designer.cs">
-      <DependentUpon>UserReservations.cs</DependentUpon>
+    <Compile Include="UsersReservations.Designer.cs">
+      <DependentUpon>UsersReservations.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="AddCustomerUI.resx">
+      <DependentUpon>AddCustomerUI.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="LoginInterface.resx">
       <DependentUpon>LoginInterface.cs</DependentUpon>
     </EmbeddedResource>
@@ -100,8 +109,8 @@
     <EmbeddedResource Include="ReservationInterface.resx">
       <DependentUpon>ReservationInterface.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="UserReservations.resx">
-      <DependentUpon>UserReservations.cs</DependentUpon>
+    <EmbeddedResource Include="UsersReservations.resx">
+      <DependentUpon>UsersReservations.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">

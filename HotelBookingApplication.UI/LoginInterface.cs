@@ -1,5 +1,6 @@
 ﻿using HotelBookinApplication.DAL;
 using HotelBookingApplication.BLL;
+using HotelBookingApplication.DATA;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -15,8 +16,8 @@ namespace HotelBookingApplication.UI
     public partial class LoginInterface : Form
     {
         Context db;
-        ReservationInterface reservation;
         NewUserInterface newUserInterface;
+        int reservationCustomerID;
 
         public LoginInterface()
         {
@@ -42,10 +43,20 @@ namespace HotelBookingApplication.UI
         {
             if (db.AppUsers.FirstOrDefault(x => x.UserName == txtUserName.Text && x.Password == txtPassword.Text) != null)
             {
+                foreach (AppUser item in db.AppUsers.ToList())
+                {
+                    if (item.UserName == txtUserName.Text)
+                        reservationCustomerID = item.CustomerID;
+                }
                 txtPassword.Text = txtUserName.Text = "";
-                UserReservations userReservations= new UserReservations(this , db);
-                userReservations.Show();
+                UsersReservations usersReservations = new UsersReservations(this, db, reservationCustomerID);
+                usersReservations.Show();
                 Hide();
+                //ReservationInterface reservation = new ReservationInterface(this, db, reservationCustomerID);
+
+            
+                //reservation.Show();
+                //Hide();
             }
             else
             {

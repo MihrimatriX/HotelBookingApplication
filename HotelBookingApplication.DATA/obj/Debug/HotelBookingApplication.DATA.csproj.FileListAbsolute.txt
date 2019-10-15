@@ -10,3 +10,8 @@ C:\Users\FURKAN\Desktop\Otel Rezarvasyon\HotelBookingApplication\HotelBookingApp
 C:\Users\FURKAN\Desktop\Otel Rezarvasyon\HotelBookingApplication\HotelBookingApplication.DATA\obj\Debug\HotelBookingApplication.DATA.csproj.CoreCompileInputs.cache
 C:\Users\FURKAN\Desktop\Otel Rezarvasyon\HotelBookingApplication\HotelBookingApplication.DATA\obj\Debug\HotelBookingApplication.DATA.dll
 C:\Users\FURKAN\Desktop\Otel Rezarvasyon\HotelBookingApplication\HotelBookingApplication.DATA\obj\Debug\HotelBookingApplication.DATA.pdb
+C:\Users\zeynep\Documents\GitHub\HotelBookingApplication\HotelBookingApplication.DATA\bin\Debug\HotelBookingApplication.DATA.dll
+C:\Users\zeynep\Documents\GitHub\HotelBookingApplication\HotelBookingApplication.DATA\bin\Debug\HotelBookingApplication.DATA.pdb
+C:\Users\zeynep\Documents\GitHub\HotelBookingApplication\HotelBookingApplication.DATA\obj\Debug\HotelBookingApplication.DATA.csprojAssemblyReference.cache
+C:\Users\zeynep\Documents\GitHub\HotelBookingApplication\HotelBookingApplication.DATA\obj\Debug\HotelBookingApplication.DATA.dll
+C:\Users\zeynep\Documents\GitHub\HotelBookingApplication\HotelBookingApplication.DATA\obj\Debug\HotelBookingApplication.DATA.pdb
